@@ -7,6 +7,9 @@
   <link rel="stylesheet" type="text/css" href="reset.css">
   <link rel="stylesheet" type="text/css" href="bookclub.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+
+
   </head>
 
   <body>
@@ -74,7 +77,7 @@
         <div class="bookOverlay_inner" id="bookOverlay_inner">
             <button class="bookOverlay_button" type="button" onClick="off();">X</button>
             <div class=centerOverlay>
-              <button class="leftRightButton" type="button" onClick="left();">LEFT!</button>
+              <button class="leftRightButton" id="left" type="button" onClick="left();"><i class="fas fa-arrow-left"></i></button>
               <div class="innerCard" id="overlayContain">
                 <img id="overlay-book-pic" src=""/>
                 <div class="book-details">
@@ -83,9 +86,9 @@
                   <p id="overlay-description"></p>
                 </div>
               </div>
-              <button class="leftRightButton" type="button" onClick="right();">RIGHT!</button>
+              <button class="leftRightButton" id="right" type="button" onClick="right();"><i class="fas fa-arrow-right"></i></button>
             </div>
-            <button class="bookOverlay_keep" type="button" onClick="keep();">Keep!</button>
+            <button class="bookOverlay_keep" type="button" onClick="keep();">Keep</button>
         </div>
     </div>
 
