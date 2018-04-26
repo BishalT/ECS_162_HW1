@@ -26,17 +26,17 @@
     <h2 class="align2">&nbsp;</h2>
     <div class="align">
         <h1 id="authort2">Title</h1>
-        <input id="title" placeholder="ex Romeo and Juliet"> 
+        <input id="title" placeholder="ex Romeo and Juliet">
     </div>
-    <h2 class="align2">&nbsp;</h2>  
+    <h2 class="align2">&nbsp;</h2>
     <div class="align">
         <h1 id="authort2">ISBN</h1>
         <input id="isbn" placeholder="ex 000-0-00-000000-0">
     </div>
-    
+
    <span>&nbsp;&nbsp;</span><button id="submitafterkeep" onclick="newRequest('keep')">Search</button>
-      
-      </div> 
+
+      </div>
   </header>
 
 
@@ -52,9 +52,9 @@
     <h2 class="align2">&nbsp;or&nbsp;</h2>
     <div class="align">
         <h1 id="authort">Title</h1>
-        <input id="title" placeholder="ex Romeo and Juliet"> 
+        <input id="title" placeholder="ex Romeo and Juliet">
     </div>
-    <h2 class="align2">&nbsp;or&nbsp;</h2>  
+    <h2 class="align2">&nbsp;or&nbsp;</h2>
     <div class="align">
         <h1 id="authort">ISBN</h1>
         <input id="isbn" placeholder="ex 000-0-00-000000-0">
@@ -92,21 +92,22 @@
         </div>
     </div>
 
-  
+
   </main>
-      
-<!--<div class="error">
+
+<div id="error" class="error">
     <div class="spaceabove">
-      <h1>The book Title by Author or <br> ISBN number 000-0-00-000000-0<br> Could not be found.</h1>
+      <h1>The book <span id="error-title">Title</span> by <span id="error-author">AUTHOR</span> or <br> ISBN number
+        <span id="error-isbn">000-0-00-000000-0</span> <br> Could not be found.</h1>
     </div>
     <br>
     <br>
     <div class="center">
     <h1>Try another search</h1>
-    <button id="submit2">OK</button>
+    <button id="submit2" onclick="off()">OK</button>
     <br>
-    </div>   
-</div>-->
+    </div>
+</div>
 
   <!-- The Javascript for this page -->
   <script src="bookclub.js"> </script>

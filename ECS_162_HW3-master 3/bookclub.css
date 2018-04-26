@@ -16,7 +16,7 @@ header {
 }
 
 #afterkeep {
-    margin-left: -20vh;
+    margin-left: -10px;
     margin-top: -80px;
     padding-bottom: 4vh;
     display: none;
@@ -36,7 +36,7 @@ box-shadow: 0px 10px 12px -2px rgba(186,186,186,1);
     letter-spacing: 1px;
     font-size: 20px;
     font-weight: 100;
-    
+
 }
 
 h1 {
@@ -61,7 +61,7 @@ h1 {
     height: 5.5vh;
     border-radius: 1.5vh;
     width: 33vh;
-    
+
 }
 
 #author {
@@ -72,7 +72,7 @@ h1 {
 }
 
 #isbn {
-    border-color: rgba(73, 120,246,1); 
+    border-color: rgba(73, 120,246,1);
     height: 5.5vh;
     border-radius: 1.5vh;
     width: 33vh;
@@ -100,7 +100,7 @@ h1 {
 
 
 .left {
-    margin-left: 20vh;
+    margin-left: 50vh;
 }
 
 #authort2 {
@@ -116,11 +116,11 @@ h1 {
     .left {
        margin-left: 15%;
     }
-    
+
     #bookclub {
         text-align: center;
     }
-    
+
     .align2 {
         display: block;
         width: 50%;
@@ -128,32 +128,42 @@ h1 {
         color: rgba(73, 120,246,1);
         font-weight: 500;
     }
-    
+
     .align {
     margin-top: -9vh;
     display: inline-block;
+
 }
-    
+
     .lower {
         margin-top: 3vh;
     }
     
+    #submitafterkeep {
+        display: block;
+        margin-top: 30px;
+        margin-left: 20vh;
+    }
+
     #submit {
         width: 90%;
         border-radius: 10px!important;
         margin-left: 0px!important;
     }
-    
-    #submitafterkeep {
 
+    #afterkeep {
+        margin-top: 40px;
+        padding-left: 0px;
+        
     }
-    
+  
+
     #title {
     border-color: rgba(73, 120,246,1);
     height: 5.5vh;
     border-radius: 1.5vh;
     width: 50vh;
-    
+
 }
 
 #author {
@@ -163,14 +173,14 @@ h1 {
     width: 33vh;
     width: 50vh;
 }
-    
+
     #isbn {
-    border-color: rgba(73, 120,246,1); 
+    border-color: rgba(73, 120,246,1);
     height: 5.5vh;
     border-radius: 1.5vh;
     width: 50vh;
 }
-  
+
 }
 
 /*-----------------------*/
@@ -214,6 +224,7 @@ main {
     background-color: rgba(0,0,0,0.7);
     z-index: 5;
     padding-bottom: 50vh;
+		display: none;
 }
 
 
@@ -223,7 +234,7 @@ main {
     line-height: 1.6;
     font-weight: 100;
 
-    
+
 }
 
 .spaceabove {
@@ -283,7 +294,7 @@ p {
     -webkit-box-shadow: 0px 10px 12px -2px rgba(186,186,186,1);
 -moz-box-shadow: 0px 10px 12px -2px rgba(186,186,186,1);
 box-shadow: 0px 10px 12px -2px rgba(186,186,186,1);
-	
+
 }
 
 .innerCard {
@@ -308,7 +319,7 @@ box-shadow: 0px 10px 12px -2px rgba(186,186,186,1);
 	flex-direction: column;
     overflow: hidden;
 	text-overflow: ellipsis;
-    
+
 }
 
 
@@ -340,7 +351,7 @@ box-shadow: 0px 10px 12px -2px rgba(186,186,186,1);
     margin: 0 auto;
     width: 145vh;
     height: 80vh;
-    
+
     margin-left: -200px;
 
     /*background-color: rgb(255,255,255); /* Must set the background color here,
@@ -356,8 +367,8 @@ box-shadow: 0px 10px 12px -2px rgba(186,186,186,1);
     top: 50%;
     /*margin-left: -400px;
     margin-top: -260px;*/
-    
-    
+
+
 }
 
 /* Not covered in Discussion: force the close button into
@@ -365,7 +376,7 @@ box-shadow: 0px 10px 12px -2px rgba(186,186,186,1);
 .bookOverlay_button {
     position: absolute;
     border-radius: 100%;
-     
+
     background-color: rgba(0,0,0,0);
     top: 0px;
     right: 0px;
@@ -381,33 +392,33 @@ box-shadow: 0px 10px 12px -2px rgba(186,186,186,1);
 
 
 .bookOverlay_keep {
-    
+
     width: 120px;
     height: 50px;
     color: white;
-    
+
     margin-left: -20px!important;
     background-color: rgba(73, 120,246,1);
     border-radius: 15px;
     color: white;
     border-color: rgba(73, 120,246,1);
-    
+
      margin-top: 30px;
     letter-spacing: 1px;
     font-size: 20px;
     font-weight: 100;
-    
-    
+
+
 }
 
 .removeButton {
     height: 23px;
     border-radius: 50%;
-    
+
 }
 
 .centerOverlay{
-   
+
     width: 800px;
     margin-top: 100px;
     margin-left: 100px;
@@ -428,16 +439,16 @@ box-shadow: 0px 10px 12px -2px rgba(186,186,186,1);
     margin: 40px;
     margin-top: 110px!important;
     border-color: white;
-    
 
-   
+
+
 }
 
 #right {
     color: white;
     font-size: 30px;
     background-repeat: no-repeat;
-    
+
 }
 
 #left {
